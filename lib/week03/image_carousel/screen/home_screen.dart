@@ -28,7 +28,16 @@ class _HomeScreenState extends State<HomeScreen> {
       if (nextPage == null) {
         return;
       }
-
+      if (nextPage == 4) {
+        nextPage = 0;
+      } else {
+        nextPage++;
+      }
+      pageController.animateToPage(
+        nextPage,
+        duration: Duration(milliseconds: 500),
+        curve: Curves.ease,
+      );
     }
     );
   }
