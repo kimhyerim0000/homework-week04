@@ -42,11 +42,11 @@ class _HomeScreenState extends State<HomeScreen> {
     showCupertinoDialog(
       context: context,
       builder: (BuildContext context) {
-        return Align(
+        return Align( // 정렬을 지정하는 위젯
           alignment: Alignment.bottomCenter, // 아래 중간으로 정렬
           child: Container(
-            color: Colors.white,
-            height: 300,
+            color: Colors.white,  // 배경색 흰색 지정
+            height: 300,  // 높이 300 지정
             child: CupertinoDatePicker(
               mode: CupertinoDatePickerMode.date,
               onDateTimeChanged: (DateTime date) {},
