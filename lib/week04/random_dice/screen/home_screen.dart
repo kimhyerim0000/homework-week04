@@ -44,9 +44,11 @@ void onHeartPressed() { // 하트 눌렀을 때 실행할 함수
 class _DDay extends StatelessWidget {
   // 하트 눌렀을 때 실행할 함수
   final GestureTapCallback onHeartPressed;
+  final DateTime firstDay;
 
   _DDay({
     required this.onHeartPressed,
+    required this.firstDay,
   });
   
   @override
