@@ -32,8 +32,23 @@ class _DDay extends StatelessWidget {
       children: [
         const SizedBox(height: 16.0),
         Text(
-          'U&I'
-        )
+          'U&I',
+        ),
+        const SizedBox(height: 16.0),
+        Text(
+          '우리 처음 만난 날',
+        ),
+        Text(
+          '2021.11.23',
+        ),
+        const SizedBox(height: 16.0),
+        IconButton(
+          iconSize: 60.0,
+          onPressed: () {},
+          icon: Icon(
+            Icons.favorite,
+          ),
+        ),
       ],
     )
   }
