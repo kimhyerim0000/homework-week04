@@ -59,7 +59,6 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-
   assets:
     - asset/img/
 
@@ -75,6 +74,7 @@ flutter:
           weight: 500  # ➌ 폰트의 두께. FontWeight 클래스의 값과 같습니다.
         - asset: asset/font/Sunflower-Bold.ttf
           weight: 700
+ 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
