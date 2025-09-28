@@ -9,8 +9,10 @@ class HomeScreen extends StatelessWidget {
       body: PageView(
         children: [1,2,3,4,5]
          .map(
-        (number) => Image.asset('asset/img/image_$number.jpeg'),
-        
+        (number) => Image.asset(
+          'asset/img/image_$number.jpeg',
+          fit: BoxFit.cover,
+          ),
          )
          .toList(),
       )
