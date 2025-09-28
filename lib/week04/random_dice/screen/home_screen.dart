@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             _DDay(
               // 하트 눌렀을 때 실행할 함수 전달하기
-              nHeartPressed: onHeartPressed,
+              onHeartPressed: onHeartPressed,
             ),
             _CoupleImage(),
           ],
