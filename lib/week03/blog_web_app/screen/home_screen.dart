@@ -18,6 +18,15 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
 
         // AppBar에 액션 버튼을 추가할 수 있는 매개변수
+        actions: [
+          IconButton(
+
+            // 아이콘을 눌렀을 때 실행할 콜백 함수
+            onPressed: () {
+              
+            }
+          )
+        ]
       ),
       body: WebViewWidget(
         controller: webViewController,
