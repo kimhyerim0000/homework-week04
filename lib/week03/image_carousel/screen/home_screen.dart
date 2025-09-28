@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     (timer) {
       print('실행!');
     }
-    )
+    );
   }
   @override
   Widget build(BuildContext context) {
