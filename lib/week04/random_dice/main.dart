@@ -18,9 +18,17 @@ void main() {
             fontSize: 50.0,
             fontWeight: FontWeight.w700,
           ),
-          bodylineLarge: 
+          bodyText1: TextStyle(
+            color: Colors.white,
+            fontSize: 30.0,
+          ),
+          bodyText2: TextStyle(
+            color: Colors.white,
+            fontSize: 20.0,
+          ),
         )
-      )
+      ),
+      home: HomeScreen(),
     ),
   );
 }
