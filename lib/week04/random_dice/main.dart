@@ -18,11 +18,11 @@ void main() {
             fontSize: 50.0,
             fontWeight: FontWeight.w700,
           ),
-          bodyText1: TextStyle(
+          bodyLarge: TextStyle(
             color: Colors.white,
             fontSize: 30.0,
           ),
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             color: Colors.white,
             fontSize: 20.0,
           ),
