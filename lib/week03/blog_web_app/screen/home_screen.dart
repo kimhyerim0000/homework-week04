@@ -16,6 +16,8 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.orange,
         title: Text('Code Factory'),
         centerTitle: true,
+
+        // AppBar에 액션 버튼을 추가할 수 있는 매개변수
       ),
       body: WebViewWidget(
         controller: webViewController,
