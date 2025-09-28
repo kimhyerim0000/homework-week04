@@ -49,8 +49,12 @@ class _DDay extends StatelessWidget {
             Icons.favorite,
           ),
         ),
+        const SizedBox(height: 16.0),
+        Text(
+          'D+365',
+        ),
       ],
-    )
+    );
   }
 }
 
