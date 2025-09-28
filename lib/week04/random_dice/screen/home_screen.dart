@@ -42,9 +42,16 @@ class _HomeScreenState extends State<HomeScreen> {
     showCupertinoDialog(
       context: context,
       builder: (BuildContext context) {
-        return CupertinoDatePicker(
-          mode: CupertinoDatePickerMode.date,
-          onDateTimeChanged: (DateTime date) {},
+        return Align(
+          alignment: Alignment.bottomCenter, // 아래 중간으로 정렬
+          child: Container(
+            color: Colors.white,
+            height: 300,
+            child: CupertinoDatePicker(
+              mode: CupertinoDatePickerMode.date,
+              onDateTimeChanged: (DateTime date) {},
+            ),
+          )
         );
       },
     );
