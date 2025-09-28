@@ -7,8 +7,7 @@ class HomeScreen extends StatelessWidget {
   ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
   ..setJavaScriptMode(JavaScriptMode.unrestricted); 
 
-  // const 생성자
-  const HomeScreen({super.key});
+  HomeScreen({super.key});
   
   @override
   Widget build(BuildContext context) {
