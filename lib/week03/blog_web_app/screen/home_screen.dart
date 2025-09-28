@@ -3,6 +3,10 @@ import "package:webview_flutter/webview_flutter.dart";
 
 class HomeScreen extends StatelessWidget {
 
+  WebViewController webViewController = WebViewController()
+  ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
+  ..setJavaScriptMode(JavaScriptMode.unrestricted); 
+
   // const 생성자
   const HomeScreen({super.key});
   
