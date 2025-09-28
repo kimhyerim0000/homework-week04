@@ -14,7 +14,9 @@ class HomeScreen extends StatelessWidget {
         title: Text('Code Factory'),
         centerTitle: true,
       ),
-      body: Text('Home Screen'),
+      body: WebViewWidget(
+        controller: webViewController,
+      ),
     );
   }
 }
