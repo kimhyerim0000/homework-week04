@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             _DDay(
               // 하트 눌렀을 때 실행할 함수 전달하기
-              onHeartPressed: onHeartPressed,
+              nHeartPressed: onHeartPressed,
             ),
             _CoupleImage(),
           ],
@@ -39,6 +39,9 @@ void onHeartPressed() { // 하트 눌렀을 때 실행할 함수
 
 
 class _DDay extends StatelessWidget {
+  // 하트 눌렀을 때 실행할 함수
+  final GestureTapCallback onHeartPressed;
+
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
