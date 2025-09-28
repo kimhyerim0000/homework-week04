@@ -59,6 +59,8 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0),
         Text(
           'D+365',
+          // headline2 스타일 적용
+          style: textTheme.headlineMedium,
         ),
       ],
     );
