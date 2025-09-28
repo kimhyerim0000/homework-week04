@@ -6,7 +6,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Home Screen'),
+      body: SafeArea(
+        top: true,
+        bottom: false,
+        child: Column(
+          // 위아래 끝에 위젯 배치
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        )
+      )
     );
   }
 }
