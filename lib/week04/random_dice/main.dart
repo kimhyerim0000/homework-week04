@@ -17,8 +17,8 @@ void main() {
             color: Colors.white,
             fontSize: 50.0,
             fontWeight: FontWeight.w700,
-            
-          )
+          ),
+          bodylineLarge: 
         )
       )
     ),
