@@ -53,7 +53,7 @@ class _DDay extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.favorite,
-            color: Colors.red,
+            color: Colors.red,  // 색상 빨강으로 변경
           ),
         ),
         const SizedBox(height: 16.0),
