@@ -28,7 +28,14 @@ class HomeScreen extends StatelessWidget {
 class _DDay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text('DDay Widget');
+    return Column(
+      children: [
+        const SizedBox(height: 16.0),
+        Text(
+          'U&I'
+        )
+      ],
+    )
   }
 }
 
