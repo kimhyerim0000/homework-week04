@@ -70,7 +70,8 @@ class _DDay extends StatelessWidget {
           style: textTheme.bodyMedium, // bodyText1 스타일 적용
         ),
         Text(
-          '2021.11.23',
+          // DateTime을 년.월.일 형태로 변경
+          '${firstDay.year}.${firstDay.month}.${firstDay.day}',
           style: textTheme.bodyLarge, // bodyText2 스타일 적용
         ),
         const SizedBox(height: 16.0),
