@@ -13,7 +13,8 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.orange,
         title: Text('Code Factory'),
         centerTitle: true,
-      )
+      ),
+      body: Text('Home Screen'),
     );
   }
 }
