@@ -36,10 +36,12 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0),
         Text(
           'U&I',
+          style: textTheme.headlineLarge,
         ),
         const SizedBox(height: 16.0),
         Text(
           '우리 처음 만난 날',
+          style: textTheme.bodyMedium,
         ),
         Text(
           '2021.11.23',
