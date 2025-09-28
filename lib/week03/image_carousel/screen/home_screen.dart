@@ -8,8 +8,8 @@ class HomeScreen extends StatefulWidget {
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+// _HomeScreenState 정의 
+class _HomeScreenState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
