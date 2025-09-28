@@ -45,6 +45,7 @@ class _DDay extends StatelessWidget {
         ),
         Text(
           '2021.11.23',
+          style: textTheme.bodyLarge,
         ),
         const SizedBox(height: 16.0),
         IconButton(
@@ -52,6 +53,7 @@ class _DDay extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.favorite,
+            color: Colors.red,
           ),
         ),
         const SizedBox(height: 16.0),
