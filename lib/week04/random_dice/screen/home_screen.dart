@@ -34,17 +34,16 @@ class _HomeScreenState extends State<HomeScreen> {
       )
     );
   }
+  
+  void onHeartPressed() { // 하트 눌렀을 때 실행할 함수
+    // 상태 변경 시 setState() 함수 실행
+    setState(() {
+
+      // firstDay 변수에서 하루 빼기
+      firstDay = firstDay.subtract(Duration(days: 1));
+    });
+  }
 }
-
-void onHeartPressed() { // 하트 눌렀을 때 실행할 함수
-  // 상태 변경 시 setState() 함수 실행
-  setState(() {
-
-    // firstDay 변수에서 하루 빼기
-    firstDay = firstDay.subtract(Duration(days: 1));
-  });
-}
-
 
 class _DDay extends StatelessWidget {
   // 하트 눌렀을 때 실행할 함수
