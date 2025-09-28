@@ -7,9 +7,12 @@ void main() {
       theme: ThemeData(
         fontFamily: 'sunflower',
         textTheme: TextTheme(
-          headline1: TextStyle(
-            
-          )
+          headlineLarge: TextStyle(
+            color: Colors.white,
+            fontSize: 80.0,
+            fontWeight: FontWeight.w700,
+            fontFamily: 'parisienne',
+          ),
         )
       )
     ),
